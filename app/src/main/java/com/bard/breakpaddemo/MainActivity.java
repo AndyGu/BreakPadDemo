@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
                 externalReportPath.mkdirs();
             }
         }
-//        BreakpadInit.initBreakpad(externalReportPath.getAbsolutePath());
+        BreakpadInit.initBreakpad(externalReportPath.getAbsolutePath());
     }
 
     @Override
