@@ -11,6 +11,8 @@ import android.os.Environment;
 import android.view.View;
 import android.widget.TextView;
 
+import com.bard.libbreakpad.BreakpadInit;
+
 import java.io.File;
 
 public class MainActivity extends AppCompatActivity {
